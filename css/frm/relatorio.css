@@ -1,0 +1,100 @@
+body{
+	font-family: sans-serif;
+	font-size: 9pt;
+}
+h5, p {	margin: 0pt;
+}
+
+
+.logo
+{
+	width: 70px;
+}
+
+h1{	
+	margin: 0pt;
+	font-size: 8pt; 
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h2{	
+	font-size: 7.5pt; 
+	text-align: center;
+	text-transform: uppercase;
+}
+
+table.tabela {
+    position: absolute;	
+	font-size: 8pt; 
+	border-collapse: collapse;
+    width: 100%;
+    top: 400px;
+}
+
+table thead td { 
+    background-color: #EEEEEE;
+}
+
+table thead td .teste{ 
+    background-color: #ccc;
+}
+
+table tfoot td { 
+    background-color: #AAFFEE;
+}
+
+.barcode {
+	padding: 1.5mm;
+	margin: 0;
+	vertical-align: top;
+	color: #000000;
+}
+
+.barcodecell {
+	text-align: center;
+	vertical-align: middle;
+	padding: 0;
+}
+
+.tbl_footer{
+	height:50px;
+	padding:5px;
+	width: 100%;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+	text-transform: uppercase;
+}
+
+table.tabela thead tr td{
+    border: 1px solid #000;
+    margin: -1px;
+}
+
+table.tabela tbody tr td{
+    border: 1px solid #000;
+    margin: -1px;
+}
+
+table.tabela thead tr.false-top td {
+    background-color: none;
+    border: none;
+    color: red;
+    font-size: 11px;
+    font-weight: bold;
+    vertical-align: super;
+}
+
+table.tbl_header tr td {
+    text-align: left;
+}
+
+table.tbl_header tr.centralizar td {
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+    text-decoration: underline;
+}
